@@ -1,0 +1,12 @@
+.scrollx {
+  width: 100%;
+  white-space: nowrap;
+
+  > view,
+  div {
+    width: 100%;
+    min-height: 100px;
+    display: inline-block;
+    vertical-align: top;
+  }
+}

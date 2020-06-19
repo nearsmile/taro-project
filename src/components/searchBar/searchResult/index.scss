@@ -1,0 +1,22 @@
+.cl_search_result {
+  width: 100%;
+  &.solid-bottom {
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+.cl_search_loading {
+  width: 100%;
+  transform: rotate(360deg);
+  animation: search_loading 1s infinite linear;
+}
+
+@keyframes search_loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
